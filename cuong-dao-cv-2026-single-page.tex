@@ -3,7 +3,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[english]{babel}
-\usepackage[left=1.0cm,top=1.0cm,right=1.0cm,bottom=1.0cm]{geometry} % Tighter margins
+\usepackage[left=1.0cm,top=1.2cm,right=1.0cm,bottom=1.2cm]{geometry} % Compact margins with breathing room
 \usepackage{hyperref}
 \usepackage{enumitem}
 \usepackage{titlesec}
@@ -18,56 +18,56 @@
 
 % Section Formatting - Tightened spacing
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-2pt}]
+  \vspace{-2pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{0pt}]
 
 \begin{document}
 
 % HEADER
 \begin{center}
-    {\Huge \textbf{CUONG DAO}} \\ \vspace{4pt}
+    {\Huge \textbf{CUONG DAO}} \\ \vspace{6pt}
     Ho Chi Minh City, Vietnam \\
     \href{mailto:dqcuong93@gmail.com}{dqcuong93@gmail.com} \textbullet \ (+84) 902 030 918 \\
     \href{https://www.linkedin.com/in/cuongdao93}{LinkedIn: cuongdao93}
 \end{center}
 
-\vspace{-6pt}
+\vspace{-2pt}
 
 % EXPERIENCE
 \section{Professional Experience}
 
 \textbf{Freelance - Independent Projects} \hfill Remote \\
 \textit{Technical Lead / Senior Backend Engineer} \hfill Mar 2021 – Present
-\begin{itemize}[noitemsep, topsep=0pt]
+\begin{itemize}[itemsep=1pt, topsep=2pt]
     \item Architected end-to-end backend infrastructure for 6+ independent platforms across FinTech, EdTech, and digitization, managing system design through production deployment.
     \item Scaled the Meta Wisdom backend to serve 1,000+ concurrent users at 380ms median latency with zero failures, optimizing performance via Redis caching and Gunicorn tuning.
     \item Led the TradeModules infrastructure migration from Kubernetes to a leaner Docker-based deployment, delivering a production-grade, white-label trading platform for a licensed Vietnamese securities brokerage, maintaining zero reported incidents since go-live, and achieving Top 50 at Startup Wheel.
     \item Engineered the DigiSER master-slave architecture using Django and Vue 3, integrating offline OCR and bulk digital-signing tools to process 40,000–100,000+ files per batch.
 \end{itemize}
 
-\vspace{4pt}
+\vspace{6pt}
 
 \textbf{VietNam Cloud Services - V!Studios} \hfill Vietnam \\
 \textit{Senior Backend Developer} \hfill Jul 2020 – Jul 2025
-\begin{itemize}[noitemsep, topsep=0pt]
+\begin{itemize}[itemsep=1pt, topsep=2pt]
     \item Built and maintained scalable backend services for 3 production-grade cloud platforms spanning document automation and luxury travel.
     \item Developed the Quiqtext serverless OCR pipeline leveraging AWS Textract and Lambda, successfully reducing document processing time by 80\%.
     \item Modernized the legacy Trade To Travel monolithic system to a decoupled Docker and Wagtail architecture, delivering seamless backend modernization with zero production downtime.
     \item Enforced code quality and reliable releases via CI/CD pipelines, Pytest, and Agile delivery, maintaining >60\% test coverage.
 \end{itemize}
 
-\vspace{4pt}
+\vspace{6pt}
 
 \textbf{PTSC - PetroVietnam Technical Services Corporation} \hfill Vietnam \\
 \textit{IT Specialist} \hfill Oct 2015 – Jul 2020
-\begin{itemize}[noitemsep, topsep=0pt]
+\begin{itemize}[itemsep=1pt, topsep=2pt]
     \item Architected an enterprise asset management system to replace manual tagging and paper-based tracking, assigning unique system IDs to computers, furniture, and equipment, and integrating endpoint monitoring to track real-time asset location and flag unauthorized software.
     \item Digitized manual, paper-based approval workflows (leave requests, supply requisitions) into an online system with multi-level electronic sign-off, eliminating sequential physical paperwork and accelerating cross-departmental approval cycles.
 \end{itemize}
 
 % SKILLS
 \section{Technical Skills}
-\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+\begin{itemize}[itemsep=1pt, topsep=2pt, leftmargin=*]
     \item \textbf{Languages:} Python, Bash, JavaScript.
     \item \textbf{Backend \& Frameworks:} FastAPI, Django, Wagtail, Serverless Framework, Vue 3, Inertia.js.
     \item \textbf{Databases:} PostgreSQL, TimescaleDB, MongoDB, Redis.
@@ -80,7 +80,7 @@
 \textbf{Western Sydney University} \hfill Australia \\
 MBA, Information \& Communications Technology \hfill 2018 - 2020
 
-\vspace{2pt}
+\vspace{4pt}
 
 \textbf{Saigon Technology University} \hfill Vietnam \\
 Engineer, Computer Science \hfill 2011 - 2015
